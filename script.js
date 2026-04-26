@@ -12,3 +12,8 @@ function verificarParImpar() {
         resultado.style.color = 'orange';
     }
 }
+function limpar() {
+ document.getElementById('numero').value = "";
+ resultado.style.color = "" ;
+ resultado.textContent = "" ; 
+}
