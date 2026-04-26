@@ -9,7 +9,7 @@ function verificarParImpar() {
       
     } else {
         resultado.textContent = `${numero} é um número ímpar.`;
-        resultado.style.color = 'orange';
+        resultado.style.color = 'green';
     }
 }
 function limpar() {
